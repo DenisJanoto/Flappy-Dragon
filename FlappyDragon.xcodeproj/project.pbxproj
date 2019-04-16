@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC25414522663F65001F2B91 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BC25414222663F64001F2B91 /* music.m4a */; };
+		BC25414622663F65001F2B91 /* score.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC25414322663F64001F2B91 /* score.mp3 */; };
+		BC25414722663F65001F2B91 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC25414422663F64001F2B91 /* hit.mp3 */; };
 		BCF916B02255A60D00D21A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF916AF2255A60D00D21A84 /* AppDelegate.swift */; };
-		BCF916B22255A60D00D21A84 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BCF916B12255A60D00D21A84 /* GameScene.sks */; };
-		BCF916B42255A60D00D21A84 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BCF916B32255A60D00D21A84 /* Actions.sks */; };
 		BCF916B62255A60D00D21A84 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF916B52255A60D00D21A84 /* GameScene.swift */; };
 		BCF916B82255A60D00D21A84 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF916B72255A60D00D21A84 /* GameViewController.swift */; };
 		BCF916BB2255A60D00D21A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF916B92255A60D00D21A84 /* Main.storyboard */; };
@@ -18,10 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC25414222663F64001F2B91 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.m4a; path = "../../../Arquivos FlappyDragon/music.m4a"; sourceTree = "<group>"; };
+		BC25414322663F64001F2B91 /* score.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = score.mp3; path = "../../../Arquivos FlappyDragon/score.mp3"; sourceTree = "<group>"; };
+		BC25414422663F64001F2B91 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hit.mp3; path = "../../../Arquivos FlappyDragon/hit.mp3"; sourceTree = "<group>"; };
 		BCF916AC2255A60D00D21A84 /* FlappyDragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyDragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF916AF2255A60D00D21A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCF916B12255A60D00D21A84 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BCF916B32255A60D00D21A84 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		BCF916B52255A60D00D21A84 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BCF916B72255A60D00D21A84 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BCF916BA2255A60D00D21A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,9 +62,10 @@
 		BCF916AE2255A60D00D21A84 /* FlappyDragon */ = {
 			isa = PBXGroup;
 			children = (
+				BC25414422663F64001F2B91 /* hit.mp3 */,
+				BC25414222663F64001F2B91 /* music.m4a */,
+				BC25414322663F64001F2B91 /* score.mp3 */,
 				BCF916AF2255A60D00D21A84 /* AppDelegate.swift */,
-				BCF916B12255A60D00D21A84 /* GameScene.sks */,
-				BCF916B32255A60D00D21A84 /* Actions.sks */,
 				BCF916B52255A60D00D21A84 /* GameScene.swift */,
 				BCF916B72255A60D00D21A84 /* GameViewController.swift */,
 				BCF916B92255A60D00D21A84 /* Main.storyboard */,
@@ -131,11 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC25414722663F65001F2B91 /* hit.mp3 in Resources */,
 				BCF916BB2255A60D00D21A84 /* Main.storyboard in Resources */,
-				BCF916B22255A60D00D21A84 /* GameScene.sks in Resources */,
+				BC25414522663F65001F2B91 /* music.m4a in Resources */,
+				BC25414622663F65001F2B91 /* score.mp3 in Resources */,
 				BCF916BD2255A60F00D21A84 /* Assets.xcassets in Resources */,
 				BCF916C02255A60F00D21A84 /* LaunchScreen.storyboard in Resources */,
-				BCF916B42255A60D00D21A84 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
