@@ -1,5 +1,5 @@
 # Flappy-Dragon
-Criação de um game estilo Flappy Bird para fins de estudos. (Professor Eric Brito)
+Criação de um game estilo Flappy Bird para fins de estudos - Professor Eric Brito
 
 - SpriteKit
 
